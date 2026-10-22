@@ -1,0 +1,46 @@
+
+body {
+    font-family: Arial;
+    background: #eaf0f8;
+    padding: 20px;
+}
+
+.container {
+    max-width: 350px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #234567;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #234567;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#result {
+    margin-top: 15px;
+    color: green;
+}

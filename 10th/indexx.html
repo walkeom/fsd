@@ -1,0 +1,34 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Exam Result System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Exam Result Display System</h2>
+
+<form id="resultForm">
+    <input type="text" id="name" placeholder="Student Name" required>
+    <input type="text" id="roll" placeholder="Roll Number" required>
+
+    <input type="number" id="m1" placeholder="Subject 1" min="0" max="100" required>
+    <input type="number" id="m2" placeholder="Subject 2" min="0" max="100" required>
+    <input type="number" id="m3" placeholder="Subject 3" min="0" max="100" required>
+
+    <button type="submit">Show Result</button>
+</form>
+
+<table id="resultTable">
+    <tr>
+        <th>Name</th>
+        <th>Roll No.</th>
+        <th>Total</th>
+        <th>Percentage</th> 
+    </tr>
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>

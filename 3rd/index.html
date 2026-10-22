@@ -1,0 +1,31 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Result System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2>Student Result Management</h2>
+
+<input id="name" placeholder="Student Name">
+<input id="m1" type="number" placeholder="Subject 1" min="0" max="100">
+<input id="m2" type="number" placeholder="Subject 2" min="0" max="100">
+<input id="m3" type="number" placeholder="Subject 3" min="0" max="100">
+
+<button onclick="addResult()">Add Result</button>
+
+<table id="result">
+    <tr>
+        <th>Name</th>
+        <th>Total</th>
+        <th>Percentage</th>
+    </tr>
+</table>
+
+<h3 id="topper">Topper: None</h3>
+
+<script src="script.js"></script>
+</body>
+</html>

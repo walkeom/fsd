@@ -1,0 +1,53 @@
+
+body {
+    font-family: Arial;
+    background: #eaf0f8;
+    margin: 0;
+    padding: 25px 10px;
+}
+
+.container {
+    max-width: 350px;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    color: #234567;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+input, select {
+    width: 100%;
+    padding: 9px;
+    margin-top: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 15px;
+    background: #234567;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#message {
+    color: green;
+    text-align: center;
+}
+
+@media (max-width: 400px) {
+    .container {
+        padding: 15px;
+    }
+}
